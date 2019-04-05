@@ -57,7 +57,36 @@
 
 # 3. Tips
 
+因为在日常中需接触C++的多线程调试，但苦于不知道调试方法，遂去官网查看并学习了VS2017的多线程调试方式。
+
+其中主要介绍内容如下：
+
+1. 并行堆栈
+2. 并行监视
+   1. 线程的冻结、解冻
+   2. 标记
+   3. 添加数据监视
+3. 模块
+   1. pdb文件（Symbol file）
+   2. 模块符号导入
+   3. 源代码（或反汇编代码）的定位
+4. 线程
+   1. 当前应用的线程
+
+
+
+**相关学习资源：**
+
+1. [Debug multithreaded applications in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/debugger/debug-multithreaded-applications-in-visual-studio?view=vs-2017)
+
+2. Demo视频：[Debugging multithread apps demo](https://www.youtube.com/watch?v=ISDaHM1cHXk)
+
+**附图：**
+
+![](.\Week_1_Materials\vs2017_debug.jpg)
+
 
 
 # 4. Share
 
+开始看《算法图解》这本书，弥补日前算法这块的空缺。主要学习了数组和链表各自的优势劣势，详细内容见我的CSDN博客：[数组与链表——异同分析](https://blog.csdn.net/VVBBBBB/article/details/89036793) 
