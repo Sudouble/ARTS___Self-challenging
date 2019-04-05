@@ -83,7 +83,7 @@
 
 **附图：**
 
-![](.\Week_1_Materials\vs2017_debug.jpg)
+![](./Week_1_Materials/vs2017_debug.jpg)
 
 
 
