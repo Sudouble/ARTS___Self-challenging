@@ -56,5 +56,20 @@ public:
 
 # 3. Tips
 
+以前对多线程很迷，不知道要怎么操作，最近开始通读《Windows核心编程》，学习到了很多的新知识，在此做个小归纳。
+
+Windows下的c++多线程编程，创建线程的几个主要函数
+
+- _threadstartex(...)
+- CreateThread(...)
+- AfxBeginThread(...)
+
+_threadstartex使用的是C/C++运行库，AfxBeginThread是MFC的运行库，CreateThread是windows提供的API函数。这里主要介绍前两个函数，MFC函数实际上是调用了__threadstartex来创建线程。
+
+那么为什么要有_threadstartex函数呢？因为早在70年代C语言发明之初，没有多线程编程这一说，所以有很多库函数（如strstok等）都不支持多线程。但以现代CPU结构，不好好利用并发，和咸鱼又有什么区别呢？但是有一个尴尬的地方，C/C++运行库只能依赖系统层面进行线程的创建。所以，为了支持C运行库下的函数__threadstartex对CreateThread进行了封装，并将一些全局变量进行了封装，转换为本地变量，传入线程，这样就不会涉及到线程同步问题了。
+
 # 4. Share
 
+**近期要静下心来，打好基础。**温习了几种排序算法，对此有了新理解，在此做一个记录。
+
+[三种排序算法详解：插入、冒泡、快速排序](https://blog.csdn.net/VVBBBBB/article/details/89293471)
