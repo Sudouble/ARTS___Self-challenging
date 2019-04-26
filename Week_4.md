@@ -1,5 +1,13 @@
 # 1. Algorithm
 
+[796. Rotate String](<https://leetcode.com/problems/rotate-string/>)
+
+瞄了眼难度：easy，瞬间感觉开森，但是实际能做出来又是另一回事。
+
+老方案：Brute Force，分分钟求解完成。但这之后我没有想到其他的解法了。近期在学算法课程，从最基本之处，改造自己。
+
+这回的收获：看到问题，找到问题的规律，找到后问自己：还有没有更好的方法。实在想不到了，再选用当前想到的。
+
 # 2. Review
 
 [LinkedIn’s Tips for Highly Effective Code Review](https://thenewstack.io/linkedin-code-review)
@@ -18,5 +26,7 @@ Code Review作为软件开发的一个环节，一方面本身能大幅度的提
 一开始的推行肯定会有阻力，（包括我用markdown来写文档，来来回回得有2年吧，才真正感受到了markdown的强大之处），但阻力是可以慢慢化简了，要去推动一个静止物体很难，但一旦动起来了，后面就很顺利了。新处事物必有其精华之处，何不了解其独特之处，化为己之长处，岂不妙哉。
 
 # 3. Tips
+
+
 
 # 4. Share
