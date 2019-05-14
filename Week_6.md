@@ -16,4 +16,10 @@
 
 # 3. Tips
 
+番茄工作法——在脑力时代，让自己注意力持续保持的工作、休息方法
+
 # 4. Share
+
+[Quick Selection（快速选择算法）](<https://blog.csdn.net/VVBBBBB/article/details/90214273>)
+
+分治——简化问题的奇招
