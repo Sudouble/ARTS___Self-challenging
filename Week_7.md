@@ -1,5 +1,13 @@
 # 1. Algorithm
 
+[100. Same Tree](<https://leetcode.com/problems/same-tree/>)
+
+卡了很久，第一件想到的就是递归——问题的分治解法
+
+还有一种是在数组中还原出树的结构，再进行比较。
+
+
+
 # 2. Review
 
 # 3. Tips
