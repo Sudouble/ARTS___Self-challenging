@@ -10,6 +10,16 @@
 
 # 2. Review
 
+[The Best Reason for Your City to Ban Facial Recognition](<https://onezero.medium.com/the-best-reason-for-your-city-to-ban-facial-recognition-d2c1f9ca094b?JGa=true>)
+
+​	昨天看到了一则新闻，说美国有个政府将不在内部使用人脸识别技术。Medium中本文的作者对此也进行了分析，主要的立场是从自由、准确性来说，也是相当有说服力的。
+
+​	在个人看来，人脸识别技术（或相关的这类技术）的出现和发展确实解决的很多现今存在的问题。解决旧问题，很多时候又会出现新问题，就是文中作者提到的准确率——Mismatch，这个完全是不可避免的。和工业级的产品不同，这个在大量人群中能更高效的捞出某几个人，其实有极大的价值——极大的解放了人力——换做你，让你天天盯着屏幕去找目标人物，累不累！
+
+​	于此同时，法律很多时候也都是滞后于技术的发展，这块其实也会慢慢补上，不会有太大的问题。
+
+
+
 # 3. Tips
 
 #### Windows内存相关概念
@@ -36,3 +46,5 @@ Virtual Bytes主要是软件整体中，对内存的使用（分页文件+物理
 ![内存详解](./imgs/memory.png)
 
 # 4. Share
+
+无
