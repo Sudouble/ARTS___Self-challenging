@@ -1,6 +1,6 @@
 # 1. Algorithm
 
-[397.]()
+[397. Integer Replacement](https://leetcode.com/problems/integer-replacement/)
 
 这个问题看似简单，实际写起来，又是另外一回事了。时间和空间复杂度都要兼顾，则加大了这个的难度，问题的求解思路如下：
 1. 递归 Brute Force
