@@ -41,4 +41,5 @@ CPU、内存相关，其中着重介绍了内存。以前只知道SRAM，DRAM的
 
 # 4. Share
 
-Windows DLL注入的几种方式——跨进程（不同的进程地址空间）
+[Windows DLL的生成与使用](<https://blog.csdn.net/VVBBBBB/article/details/92720283>)
+
