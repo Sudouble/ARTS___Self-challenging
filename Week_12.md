@@ -1,6 +1,10 @@
 # 1. Algorithm
 
+[978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)
 
+较为brute force的解法，解答的思路是：看重本次搜索结果，只要不符合，就重新开始计算——和KMP算法有一定的相似性，但本题的情况完全不需要回溯。
+
+**其他人的思路：**DP——利用缓存值，依次往上叠加
 
 # 2. Review
 
@@ -34,4 +38,8 @@ CPU为什么要有缓存，这和内存的速度有关，因为SRAM造价高昂�
 
 # 3. Tips
 
+暂无
+
 # 4. Share
+
+暂无——预留：DLL注入相关
