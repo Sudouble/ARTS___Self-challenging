@@ -1,5 +1,15 @@
 # 1. Algorithm
 
+[135. Candy](https://leetcode.com/problems/candy/)
+
+糖果分发问题——Rating高的得到糖果最多，求怎么分数量最好。
+
+解法：
+
+1. **暴力求解**——根据约束条件，更新糖果数量，一直循环至糖果分配的数量没有变化
+2. **在1的基础上稍稍加了规律**——判断一次后，反向进行判断，更新最大的数，因为数量变化规律是一致的，
+3. **爬山、下山法**——根据规律，每次糖果数量出现波动，和Rating的变化趋势有关，趋势上升，者糖果数量上升，反之则下降——**（一个很好的把问题抽象化的例子）**
+
 # 2. Review
 
 [Steering the right course for AI](<https://cloud.google.com/blog/products/ai-machine-learning/steering-the-right-course-for-ai> )
