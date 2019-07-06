@@ -7,8 +7,12 @@
 解法：
 
 1. **暴力求解**——根据约束条件，更新糖果数量，一直循环至糖果分配的数量没有变化
+
 2. **在1的基础上稍稍加了规律**——判断一次后，反向进行判断，更新最大的数，因为数量变化规律是一致的，
+
 3. **爬山、下山法**——根据规律，每次糖果数量出现波动，和Rating的变化趋势有关，趋势上升，者糖果数量上升，反之则下降——**（一个很好的把问题抽象化的例子）**
+
+   ![Candy_Two_Arrays](https://leetcode.com/problems/candy/Figures/135_Candy_Constant_Space.PNG)
 
 # 2. Review
 
@@ -41,4 +45,9 @@ AI的作用能有多大？它的优势和局限性又在什么地方，未来要
 
 # 3. Tips
 
+Think before act!
+
 # 4. Share
+
+[背包问题——动态规划](https://blog.csdn.net/VVBBBBB/article/details/89114611)
+
