@@ -30,3 +30,5 @@ Think before act.
 6. 逐渐开始理解交流的重要性
 
 # 4. Share
+
+[J1939协议与CAN2.0对应关系图表](https://blog.csdn.net/VVBBBBB/article/details/96475982)
